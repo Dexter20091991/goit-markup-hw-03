@@ -15,6 +15,17 @@ ol {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 /*HEADER*/
 
 .content {
@@ -154,7 +165,20 @@ span {
 /*HERO SECTION*/
 .hero-section {
   background-color: #2E2F42;
+  padding: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
+
+.hero-container {
+  padding: 188px 0;
+  margin: 0 auto;
+
+}
+
+
 
 .hero-title {
   color: #FFFFFF;
@@ -165,7 +189,9 @@ span {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto 48px;
 }
+
 
 /*BUTTON*/
 .button {
@@ -178,6 +204,14 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  max-width: 169px;
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -200,6 +234,12 @@ span {
 .features-content {
   background-color: #FFFFFF;
   font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.features-title {
+  display: none;
 }
 
 .feature-title {
@@ -210,6 +250,16 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
+
+}
+
+.feature-list {
+  display: flex;
+  gap: 24px;
+  margin: 120px 0;
+  justify-content: space-between;
+  flex-basis: calc(100% - 3 *24) / 4;
 }
 
 .feature-text {
@@ -220,6 +270,7 @@ span {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  align-items: center;
 }
 
 /*OUR TEAM*/
