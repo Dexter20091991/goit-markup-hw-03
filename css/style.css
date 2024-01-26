@@ -224,6 +224,10 @@ span {
 
 }
 
+.features-title {
+  visibility: hidden;
+}
+
 .feature-title {
   color: #2e2f42;
   font-family: Roboto;
