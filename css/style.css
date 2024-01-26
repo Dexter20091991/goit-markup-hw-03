@@ -214,7 +214,7 @@ span {
   padding: 120px 0;
 }
 
-.features-title {
+.visually-hidden {
   position: absolute !important;
   height: 1px;
   width: 1px;
